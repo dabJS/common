@@ -1,6 +1,6 @@
 {
   "name": "@dabjs/common",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "The common module from dabJS",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

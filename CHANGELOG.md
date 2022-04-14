@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Ongoing Changes
 
+## [1.2.2]
+
+### Changed
+
+- Save amqli types
+
 ## [1.2.1]
 
 ### Changed
