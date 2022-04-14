@@ -8,6 +8,7 @@
     "moduleResolution": "node",
     "outDir": "./lib",
     "esModuleInterop": true,
+    "strictPropertyInitialization": false,
     "lib": ["es2020"],
     "strict": true,    
   },

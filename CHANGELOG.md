@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Ongoing Changes
 
+## [1.2.0]
+
+### Added
+
+- Added common exceptions to grpc, http and validation joi
+- Added types to amqp, cache, cron job wtih command, database, entities, exceptions, grcp, http server, http integration, application modules, observer, value objects
+
 ## [1.0.2]
 
 ### Added
