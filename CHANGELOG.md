@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Ongoing Changes
 
+## [1.0.1]
+
+### Added
+
+- Added HttpConfig as http type
+
 ## [1.0.0]
 
 ### Added

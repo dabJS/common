@@ -1,6 +1,6 @@
 {
   "name": "@dabjs/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The common module from dabJS",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -42,7 +42,8 @@
   "dependencies": {
     "joi": "^17.6.0",
     "node": "^17.7.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "tsyringe": "^4.6.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.24"

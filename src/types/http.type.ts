@@ -1,4 +1,5 @@
 import Joi from 'joi';
+import { DependencyContainer } from 'tsyringe';
 
 export abstract class Controller {
   abstract handle(req: HttpRequest): Promise<HttpResponse | void>;
@@ -41,3 +42,9 @@ export type RouteConfig = {
 export interface Middleware {
   handle(req: HttpRequest, error?: Error): HttpResponse | Promise<void>;
 }
+
+export type HttpServerConfig = {
+  container: DependencyContainer;
+  controllers: Function[];
+  env: Record<string, any>;
+};
