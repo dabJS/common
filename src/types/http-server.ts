@@ -46,5 +46,6 @@ export interface Middleware {
 export type HttpServerConfig = {
   container: DependencyContainer;
   controllers: Function[];
-  env: Record<string, any>;
+  port: number;
+  bodyLimit: string;
 };
